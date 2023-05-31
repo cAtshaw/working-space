@@ -3,6 +3,7 @@ body {
   background-color: whitesmoke;
   color: #282828;
   margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -11,6 +12,11 @@ nav {
 }
 
 /* Typography */
+
+main {
+  text-align: center;
+}
+
 ul {
   display: inline-flex;
   list-style: none;
@@ -20,8 +26,27 @@ ul {
 .logo {
   font-weight: 700;
   font-size: 18px;
+  margin-right: 10px;
 }
 
 .icon {
   width: 25px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+
+.caption {
+  text-align: left;
+  margin: 0 25px;
+}
+
+/* Images */
+
+img {
+  width: 100%;
 }
