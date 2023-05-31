@@ -1,0 +1,27 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: whitesmoke;
+  color: #282828;
+  margin: 0;
+}
+
+nav {
+  background-color: #282828;
+  color: whitesmoke;
+}
+
+/* Typography */
+ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 25px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.icon {
+  width: 25px;
+}
