@@ -81,3 +81,15 @@ button {
   font-weight: 700;
   cursor: pointer;
 }
+
+.chatbox-bg {
+  box-shadow: 1px 1px 3px #999;
+  cursor: pointer;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: auto 10px 10px auto;
+  width: 40px;
+  height: 40px;
+}
